@@ -1,2 +1,7 @@
-server.port=8003
-spring.application.name=pedal-service
+spring:
+  application:
+    name: pedals-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8003
