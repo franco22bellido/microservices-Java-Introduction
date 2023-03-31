@@ -1,7 +1,7 @@
 spring:
   application:
-    name: guitar-service
+    name: guitars-service
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8082
+      uri: http://localhost:8090
